@@ -17,25 +17,11 @@ parameters are selected via grid search on it.
 
 ## Quantitative results
 ### Main results (Evaluation Set MQuAKE-CF-3k)
-<table>
-  <tr>
-    <th rowspan="2">Method</th>
-    <th colspan="2">I edited</th>
-    <th colspan="2">100 edited</th>
-    <th colspan="2">All edited</th>
-  </tr>
-  <tr>
-    <th>M-Acc<_th><th>H-Acc<_th>
-    <th>M-Acc<_th><th>H-Acc<_th>
-    <th>M-Acc<_th><th>H-Acc<_th>
-  </tr>
-  <tr>
-    <td>CAPE-KG<_td><td>78.03<_td><td>70.35<_td><td>78.93<_td><td>71.02<_td><td>78.38<_td><td>70.84</td>
-  </tr>
-  <tr>
-    <td>KeDKG<_td><td>66.80<_td><td>63.67<_td><td>58.50<_td><td>55.37<_td><td>48.30<_td><td>43.90</td>
-  </tr>
-</table>
+| Method   |        I edited        |       100 edited       |       All edited       |
+|----------|------------------------|------------------------|------------------------|
+|          | M-Acc   | H-Acc         | M-Acc   | H-Acc         | M-Acc   | H-Acc         |
+| CAPE-KG  | 78.03   | 70.35         | 78.93   | 71.02         | 78.38   | 70.84         |
+| KeDKG    | 66.80   | 63.67         | 58.50   | 55.37         | 48.30   | 43.90         |
 
 
 ### Main results (Evaluation Set MQuAKE-T)
