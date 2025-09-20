@@ -32,6 +32,86 @@ parameters are selected via grid search on it.
 | CAPE-KG  | 78.03   | 70.35         | 78.93   | 71.02         | 78.38   | 70.84         |
 
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="7">LLaMa 2-7B</th> <!-- centers by default for <th> -->
+    </tr>
+    <tr>
+      <th rowspan="2">Method</th>
+      <th colspan="2">I edited</th>
+      <th colspan="2">100 edited</th>
+      <th colspan="2">All edited</th>
+    </tr>
+    <tr>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FT<sup><a href="#fn-cot">CoT<_a><_sup></td>
+      <td>22.30<_td><td>-<_td>
+      <td>2.13<_td><td>-<_td>
+      <td>OOM<_td><td>-<_td>
+    </tr>
+    <tr>
+      <td>FT</td>
+      <td>28.20<_td><td>7.30<_td>
+      <td>2.37<_td><td>0.03<_td>
+      <td>OOM<_td><td>OOM<_td>
+    </tr>
+    <tr>
+      <td>ROME<sup><a href="#fn-cot">CoT<_a><_sup></td>
+      <td>11.17<_td><td>-<_td>
+      <td>2.87<_td><td>-<_td>
+      <td>2.77<_td><td>-<_td>
+    </tr>
+    <tr>
+      <td>ROME</td>
+      <td>13.13<_td><td>5.37<_td>
+      <td>3.50<_td><td>0.03<_td>
+      <td>3.63<_td><td>0.10<_td>
+    </tr>
+    <tr>
+      <td>MEMIT<sup><a href="#fn-cot">CoT<_a><_sup></td>
+      <td>11.83<_td><td>-<_td>
+      <td>9.23<_td><td>-<_td>
+      <td>5.57<_td><td>-<_td>
+    </tr>
+    <tr>
+      <td>MEMIT</td>
+      <td>14.97<_td><td>6.43<_td>
+      <td>9.40<_td><td>2.47<_td>
+      <td>2.30<_td><td>0.37<_td>
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>33.57<_td><td>9.90<_td>
+      <td>20.00<_td><td>10.07<_td>
+      <td>17.33<_td><td>9.90<_td>
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>44.13<_td><td>30.90<_td>
+      <td>37.33<_td><td>27.83<_td>
+      <td>32.83<_td><td>23.87<_td>
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>66.80<_td><td>63.67<_td>
+      <td>58.50<_td><td>55.37<_td>
+      <td>48.30<_td><td>43.90<_td>
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG<_strong><_td>
+      <td><strong>78.03<_strong><_td><td><strong>70.35<_strong><_td>
+      <td><strong>78.93<_strong><_td><td><strong>71.02<_strong><_td>
+      <td><strong>78.38<_strong><_td><td><strong>70.84<_strong><_td>
+    </tr>
+  </tbody>
+</table>
 
 ### Main results (Evaluation Set MQuAKE-T)
 ### Ablation Studies
