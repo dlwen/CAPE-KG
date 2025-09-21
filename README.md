@@ -35,7 +35,7 @@ parameters are selected via grid search on it.
 <table>
   <thead>
     <tr>
-      <th colspan="7">LLaMa 2-7B</th> <!-- centers by default for <th> -->
+      <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
     </tr>
     <tr>
       <th rowspan="2">Method</th>
@@ -44,17 +44,17 @@ parameters are selected via grid search on it.
       <th colspan="2">All edited</th>
     </tr>
     <tr>
-      <th rowspan=“1”>M-Acc<_th><th rowspan=“1”>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>FT<sup><a href="#fn-cot">CoT<_a><_sup></td>
-      <td>22.30<_td><td>-<_td>
-      <td>2.13<_td><td>-<_td>
-      <td>OOM<_td><td>-<_td>
+      <td>FT<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>22.30<_td><td>–<_td>
+      <td>2.13<_td><td>–<_td>
+      <td>OOM<_td><td>–<_td>
     </tr>
     <tr>
       <td>FT</td>
@@ -63,10 +63,10 @@ parameters are selected via grid search on it.
       <td>OOM<_td><td>OOM<_td>
     </tr>
     <tr>
-      <td>ROME<sup><a href="#fn-cot">CoT<_a><_sup></td>
-      <td>11.17<_td><td>-<_td>
-      <td>2.87<_td><td>-<_td>
-      <td>2.77<_td><td>-<_td>
+      <td>ROME<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>11.17<_td><td>–<_td>
+      <td>2.87<_td><td>–<_td>
+      <td>2.77<_td><td>–<_td>
     </tr>
     <tr>
       <td>ROME</td>
@@ -75,10 +75,10 @@ parameters are selected via grid search on it.
       <td>3.63<_td><td>0.10<_td>
     </tr>
     <tr>
-      <td>MEMIT<sup><a href="#fn-cot">CoT<_a><_sup></td>
-      <td>11.83<_td><td>-<_td>
-      <td>9.23<_td><td>-<_td>
-      <td>5.57<_td><td>-<_td>
+      <td>MEMIT<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>11.83<_td><td>–<_td>
+      <td>9.23<_td><td>–<_td>
+      <td>5.57<_td><td>–<_td>
     </tr>
     <tr>
       <td>MEMIT</td>
@@ -112,6 +112,8 @@ parameters are selected via grid search on it.
     </tr>
   </tbody>
 </table>
+
+<p id="cot"><strong>CoT<_strong> = Chain of Thought.<_p>
 
 
 
