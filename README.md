@@ -52,7 +52,7 @@ parameters are selected via grid search on it.
   <tbody>
     <tr>
       <td>FT<sup><a href="#cot">CoT<_a><_sup></td>
-      <td>22.30</td><td>test
+      <td>22.30<td>test
       <td>2.13<_td><td>–<_td>
       <td>OOM<_td><td>–<_td>
     </tr>
