@@ -49,7 +49,7 @@ parameters are selected via grid search on it.
       <td>OOM<td>OOM
     </tr>
     <tr>
-      <td>ROME<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>ROME<sub>COT
       <td>11.17<td>–
       <td>2.87<td>–
       <td>2.77<td>–
@@ -61,7 +61,7 @@ parameters are selected via grid search on it.
       <td>3.63<td>0.10
     </tr>
     <tr>
-      <td>MEMIT<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>MEMIT<sub>COT
       <td>11.83<td>–
       <td>9.23<td>–
       <td>5.57<td>–
