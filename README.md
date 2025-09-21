@@ -22,7 +22,7 @@ parameters are selected via grid search on it.
   <thead>
     <tr>
       <th rowspan="2">Method</th>
-      <th colspan="2">I edited</th>
+      <th colspan="2">1 edited</th>
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
     </tr>
@@ -158,10 +158,126 @@ parameters are selected via grid search on it.
   </tbody>
 </table>
 
-
-
-
 ### Main results (Evaluation Set MQuAKE-T)
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Method</th>
+      <th colspan="2">100 edited</th>
+      <th colspan="2">All edited</th>
+    </tr>
+    <tr>
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan=“5” style="text-align:center;">LLaMa 2-7B</th>
+    </tr>
+    <tr>
+      <td>FT<sub>COT
+      <td>47.32<td>-
+      <td>3.75<td>-
+    </tr>
+    <tr>
+      <td>FT</td>
+      <td>56.48<td>33.89
+      <td>1.02<td>0.37
+    </tr>
+    <tr>
+      <td>ROME<sub>COT
+      <td>28.96<td>–
+      <td>14.40<td>–
+    </tr>
+    <tr>
+      <td>ROME</td>
+      <td>24.89<td>17.99
+      <td>1.71<td>0.32
+    </tr>
+    <tr>
+      <td>MEMIT<sub>COT
+      <td>36.88<td>–
+      <td>31.58<td>–
+    </tr>
+    <tr>
+      <td>MEMIT</td>
+      <td>30.89<td>23.89
+      <td>25.21<td>20.13
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>65.78<td>55.27
+      <td>57.69<td>44.55
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>75.43<td>60.44
+      <td>74.36<td>60.33
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>73.13<td>69.06
+      <td>71.15<td>66.76
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG
+      <td><strong>93.39<td><strong>84.52
+      <td><strong>92.57<td><strong>83.82
+    </tr>
+
+
+ <tr>
+      <th colspan=“5” style="text-align:center;">Vicuna-7B</th>
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>60.72<td>48.55
+      <td>51.55<td>42.97
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>74.57<td>55.19
+      <td>73.07<td>55.09
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>71.90<td>67.23
+      <td>74.68<td>66.64
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG
+      <td><strong>98.08<td><strong>89.14
+      <td><strong>97.45<td><strong>88.20
+    </tr>
+
+
+
+ <tr>
+      <th colspan=“5” style="text-align:center;">GPT-3.5-turbo-instruct</th>
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>88.12<td>52.84
+      <td>74.57<td>53.53
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>76.98<td>69.09
+      <td>78.16<td>67.88
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>78.75<td>76.18
+      <td>77.19<td>73.77
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG
+      <td><strong>97.11<td><strong>88.00
+      <td><strong>96.72<td><strong>87.40
+    </tr>
+  </tbody>
+</table>
 ### Ablation Studies
 
 
