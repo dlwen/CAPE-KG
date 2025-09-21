@@ -44,7 +44,7 @@ parameters are selected via grid search on it.
       <th colspan="2">All edited</th>
     </tr>
     <tr>
-      <th>M-Acc<_th><th>H-Acc<_th>
+      <th rowspan=“1”>M-Acc<_th><th rowspan=“1”>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
     </tr>
@@ -114,40 +114,6 @@ parameters are selected via grid search on it.
 </table>
 
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
-    </tr>
-    <tr>
-      <th rowspan="2">Method</th>
-      <th colspan="2">I edited</th>
-      <th colspan="2">100 edited</th>
-      <th colspan="2">All edited</th>
-    </tr>
-    <tr>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>FT<sup><a href="#cot">CoT<_a><_sup></td>
-      <td>22.30<_td><td>-<_td>
-      <td>2.13<_td><td>-<_td>
-      <td>OOM<_td><td>-<_td>
-    </tr>
-    <tr>
-      <td>FT</td>
-      <td>28.20<_td><td>7.30<_td>
-      <td>2.37<_td><td>0.03<_td>
-      <td>OOM<_td><td>OOM<_td>
-    </tr>
-  </tbody>
-</table>
-
-<p id="cot"><strong>CoT<_strong> = Chain of Thought.<_p>
 
 
 ### Main results (Evaluation Set MQuAKE-T)
