@@ -21,13 +21,13 @@ parameters are selected via grid search on it.
 <table>
   <thead>
     <tr>
-      <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
-    </tr>
-    <tr>
       <th rowspan="2">Method</th>
       <th colspan="2">I edited</th>
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
+    </tr>
+    <tr>
+      <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
     </tr>
     <tr>
       <th>M-Acc<th>H-Acc
@@ -37,7 +37,7 @@ parameters are selected via grid search on it.
   </thead>
   <tbody>
     <tr>
-      <td>FT<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>FT\_COT</td>
       <td>22.30<td>-
       <td>2.13<td>-
       <td>OOM<td>-
