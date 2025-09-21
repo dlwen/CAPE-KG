@@ -31,11 +31,12 @@ parameters are selected via grid search on it.
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
     </tr>
+
+  </thead>
+  <tbody>
     <tr>
       <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td>FT<sub>COT
       <td>22.30<td>-
