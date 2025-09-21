@@ -289,11 +289,11 @@ parameters are selected via grid search on it.
       <th rowspan=“2”>KG Construction</th>
       <th rowspan=“2”>Retrieval</th>
       <th rowspan=“2”>Update</th>
-      <th colspan=“1”>1 edited</th>
-      <th colspan=“1”>100 edited</th>
-      <th colspan=“1”>All edited</th>
-      <th colspan=“1”>1 edited</th>
-      <th colspan=“1”>All edited</th>
+      <th>1 edited</th>
+      <th>100 edited</th>
+      <th>All edited</th>
+      <th>1 edited</th>
+      <th>All edited</th>
     </tr>
     <tr>
       <th>M-Acc<th>H-Acc
