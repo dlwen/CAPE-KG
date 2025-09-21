@@ -173,7 +173,7 @@ parameters are selected via grid search on it.
   </thead>
   <tbody>
     <tr>
-      <th colspan=“5” style="text-align:center;">LLaMa 2-7B</th>
+<th colspan="7" style="text-align:center;">LLaMa 2-7B</th>    
     </tr>
     <tr>
       <td>FT<sub>COT
@@ -228,7 +228,7 @@ parameters are selected via grid search on it.
 
 
  <tr>
-      <th colspan=“5” style="text-align:center;">Vicuna-7B</th>
+<th colspan="7" style="text-align:center;">Vicuna-7B</th>    
     </tr>
     <tr>
       <td>MeLLo</td>
