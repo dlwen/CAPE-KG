@@ -296,11 +296,11 @@ parameters are selected via grid search on it.
       <th colspan="2">All edited</th>
     </tr>
     <tr>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<<th>H-Acc
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
     </tr>
   </thead>
   <tbody>
