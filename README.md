@@ -252,7 +252,7 @@ parameters are selected via grid search on it.
     </tr>
 
  <tr>
-      <th colspan=“5” style="text-align:center;">GPT-3.5-turbo-instruct
+      <th colspan=“7” style="text-align:center;">GPT-3.5-turbo-instruct
     <tr>
       <td>MeLLo</td>
       <td>88.12<td>52.84
