@@ -138,7 +138,12 @@ parameters are selected via grid search on it.
       <td>2.13<_td><td>-<_td>
       <td>OOM<_td><td>-<_td>
     </tr>
-    <!-- more rows... -->
+    <tr>
+      <td>FT</td>
+      <td>28.20<_td><td>7.30<_td>
+      <td>2.37<_td><td>0.03<_td>
+      <td>OOM<_td><td>OOM<_td>
+    </tr>
   </tbody>
 </table>
 
