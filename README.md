@@ -252,8 +252,7 @@ parameters are selected via grid search on it.
     </tr>
 
  <tr>
-      <th colspan=“5” style="text-align:center;">GPT-3.5-turbo-instruct</th>
-    </tr>
+      <th colspan="7" style="text-align:center;">GPT-3.5-turbo-instruct<_th>    <_tr>
     <tr>
       <td>MeLLo</td>
       <td>88.12<td>52.84
@@ -324,7 +323,7 @@ parameters are selected via grid search on it.
       <td>87.67<td>82.00
     </tr>
     <tr>
-      <td>✓<td>✓<_td><td>–<_td>
+      <td>✓<td>✓<td>–
       <td>77.40<td>71.00</td>
       <td>74.58<td>68.14</td>
       <td>74.29<td>68.10</td>
@@ -332,7 +331,7 @@ parameters are selected via grid search on it.
       <td>94.35<td>85.60</td>
     </tr>
     <tr>
-      <td>✓<_td><td>✓<_td><td>✓</td>
+      <td>✓<td>✓<td>✓
       <td><strong>79.78<_strong><td><strong>73.65<_strong>
       <td><strong>79.81<_strong><td><strong>73.75<_strong>
       <td><strong>79.03<_strong><td><strong>73.00<_strong>
