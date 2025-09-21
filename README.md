@@ -44,76 +44,74 @@ parameters are selected via grid search on it.
       <th colspan="2">All edited</th>
     </tr>
     <tr>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
-      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>FT<sup><a href="#cot">CoT<_a><_sup></td>
-      <td>22.30<td>test
-      <td>2.13<_td><td>–<_td>
-      <td>OOM<_td><td>–<_td>
+      <td>22.30<td>-
+      <td>2.13<td>-
+      <td>OOM<td>-
     </tr>
     <tr>
       <td>FT</td>
-      <td>28.20<_td><td>7.30<_td>
-      <td>2.37<_td><td>0.03<_td>
-      <td>OOM<_td><td>OOM<_td>
+      <td>28.20<td>7.30
+      <td>2.37<td>0.03
+      <td>OOM<td>OOM
     </tr>
     <tr>
       <td>ROME<sup><a href="#cot">CoT<_a><_sup></td>
-      <td>11.17<_td><td>–<_td>
-      <td>2.87<_td><td>–<_td>
-      <td>2.77<_td><td>–<_td>
+      <td>11.17<td>–
+      <td>2.87<td>–
+      <td>2.77<td>–
     </tr>
     <tr>
       <td>ROME</td>
-      <td>13.13<_td><td>5.37<_td>
-      <td>3.50<_td><td>0.03<_td>
-      <td>3.63<_td><td>0.10<_td>
+      <td>13.13<td>5.37
+      <td>3.50<td>0.03
+      <td>3.63<td>0.10
     </tr>
     <tr>
       <td>MEMIT<sup><a href="#cot">CoT<_a><_sup></td>
-      <td>11.83<_td><td>–<_td>
-      <td>9.23<_td><td>–<_td>
-      <td>5.57<_td><td>–<_td>
+      <td>11.83<td>–
+      <td>9.23<td>–
+      <td>5.57<td>–
     </tr>
     <tr>
       <td>MEMIT</td>
-      <td>14.97<_td><td>6.43<_td>
-      <td>9.40<_td><td>2.47<_td>
-      <td>2.30<_td><td>0.37<_td>
+      <td>14.97<td>6.43
+      <td>9.40<td>2.47
+      <td>2.30<td>0.37
     </tr>
     <tr>
       <td>MeLLo</td>
-      <td>33.57<_td><td>9.90<_td>
-      <td>20.00<_td><td>10.07<_td>
-      <td>17.33<_td><td>9.90<_td>
+      <td>33.57<td>9.90
+      <td>20.00<td>10.07
+      <td>17.33<td>9.90
     </tr>
     <tr>
       <td>PokeMQA</td>
-      <td>44.13<_td><td>30.90<_td>
-      <td>37.33<_td><td>27.83<_td>
-      <td>32.83<_td><td>23.87<_td>
+      <td>44.13<td>30.90
+      <td>37.33<td>27.83
+      <td>32.83<td>23.87
     </tr>
     <tr>
       <td>KeDKG</td>
-      <td>66.80<_td><td>63.67<_td>
-      <td>58.50<_td><td>55.37<_td>
-      <td>48.30<_td><td>43.90<_td>
+      <td>66.80<td>63.67
+      <td>58.50<td>55.37
+      <td>48.30<td>43.90
     </tr>
     <tr>
       <td><strong>CAPE-KG<_strong><_td>
-      <td><strong>78.03<_strong><_td><td><strong>70.35<_strong><_td>
-      <td><strong>78.93<_strong><_td><td><strong>71.02<_strong><_td>
-      <td><strong>78.38<_strong><_td><td><strong>70.84<_strong><_td>
+      <td><strong>78.03<td><strong>70.35
+      <td><strong>78.93<td><strong>71.02
+      <td><strong>78.38<td><strong>70.84
     </tr>
   </tbody>
 </table>
-
-<p id="cot"><strong>CoT<_strong> = Chain of Thought.<_p>
 
 
 
