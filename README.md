@@ -286,21 +286,21 @@ parameters are selected via grid search on it.
       <th colspan="4">MQUAKE-CF-T</th>
     </tr>
     <tr>
-      <th rowspan=“2”>KG Construction</th>
-      <th rowspan=“2”>Retrieval</th>
-      <th rowspan=“2”>Update</th>
-      <th colspan="2">1 edited</th>
+      <th rowspan="2">KG Construction</th>
+      <th rowspan="2">Retrieval</th>
+      <th rowspan="2">Update</th>
+      <th colspan="2">I edited</th>
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
-      <th colspan="2">1 edited</th>
+      <th colspan="2">I edited</th>
       <th colspan="2">All edited</th>
     </tr>
     <tr>
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
     </tr>
   </thead>
   <tbody>
