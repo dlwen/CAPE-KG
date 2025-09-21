@@ -31,7 +31,6 @@ parameters are selected via grid search on it.
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
     </tr>
-
   </thead>
   <tbody>
     <tr>
@@ -96,6 +95,65 @@ parameters are selected via grid search on it.
       <td><strong>78.03<td><strong>70.35
       <td><strong>78.93<td><strong>71.02
       <td><strong>78.38<td><strong>70.84
+    </tr>
+
+
+ <tr>
+      <th colspan="7" style="text-align:center;">Vicuna-7B</th>
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>30.70<td>28.80
+      <td>24.75<td>12.25
+      <td>22.35<td>10.85
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>45.83<td>34.80
+      <td>38.77<td>31.23
+      <td>31.63<td>25.30
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>68.60<td>65.13
+      <td>62.43<td>58.20
+      <td>51.10<td>44.67
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG
+      <td><strong>81.89<td><strong>78.74
+      <td><strong>81.59<td><strong>78.85
+      <td><strong>80.94<td><strong>78.49
+    </tr>
+
+
+
+ <tr>
+      <th colspan="7" style="text-align:center;">GPT-3.5-turbo-instruct</th>
+    </tr>
+    <tr>
+      <td>MeLLo</td>
+      <td>57.43<td>28.80
+      <td>40.87<td>28.13
+      <td>35.27<td>25.30
+    </tr>
+    <tr>
+      <td>PokeMQA</td>
+      <td>67.27<td>56.37
+      <td>56.00<td>49.63
+      <td>45.87<td>39.77
+    </tr>
+    <tr>
+      <td>KeDKG</td>
+      <td>68.00<td>65.33
+      <td>59.50<td>56.80
+      <td>49.10<td>43.17
+    </tr>
+    <tr>
+      <td><strong>CAPE-KG
+      <td><strong>79.78<td><strong>73.65
+      <td><strong>79.81<td><strong>73.75
+      <td><strong>79.03<td><strong>73.00
     </tr>
   </tbody>
 </table>
