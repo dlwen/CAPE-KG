@@ -252,8 +252,7 @@ parameters are selected via grid search on it.
     </tr>
 
  <tr>
-      <th colspan=“7” style="text-align:center;">GPT-3.5-turbo-instruct
-    <tr>
+       <th colspan="7" style="text-align:center;">GPT-3.5-turbo-instruct</th>    <tr>
       <td>MeLLo</td>
       <td>88.12<td>52.84
       <td>74.57<td>53.53
@@ -287,9 +286,9 @@ parameters are selected via grid search on it.
       <th colspan="4">MQUAKE-CF-T</th>
     </tr>
     <tr>
-      <th>KG Construction</th>
-      <th>Retrieval</th>
-      <th>Update</th>
+      <th rowspan=“2”>KG Construction</th>
+      <th rowspan=“2”>Retrieval</th>
+      <th rowspan=“2”>Update</th>
       <th colspan="2">1 edited</th>
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
@@ -333,10 +332,10 @@ parameters are selected via grid search on it.
     <tr>
       <td>✓<td>✓<td>✓
       <td><strong>79.78<td><strong>73.65
-      <td><strong>79.81<td><strong>73.75
-      <td><strong>79.03<td><strong>73.00
-      <td><strong>97.11<td><strong>88.00
-      <td><strong>96.72<td><strong>87.40
+      <td><strong>79.81<td><strong>73.75</strong>
+      <td><strong>79.03<td><strong>73.00</strong>
+      <td><strong>97.11<td><strong>88.00</strong>
+      <td><strong>96.72<td><strong>87.40</strong>
     </tr>
   </tbody>
 </table>
