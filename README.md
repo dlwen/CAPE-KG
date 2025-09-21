@@ -283,13 +283,14 @@ parameters are selected via grid search on it.
 <table>
   <thead>
     <tr>
-      <th rowspan="3">KG Construction</th>
-      <th rowspan="3">Retrieval</th>
-      <th rowspan="3">Update</th>
+      <th colspan="3">Method</th>
       <th colspan="6">MQUAKE-CF-3K</th>
       <th colspan="4">MQUAKE-CF-T</th>
     </tr>
     <tr>
+      <th>KG Construction</th>
+      <th>Retrieval</th>
+      <th>Update</th>
       <th colspan="2">I edited</th>
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
@@ -297,6 +298,7 @@ parameters are selected via grid search on it.
       <th colspan="2">All edited</th>
     </tr>
     <tr>
+      <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
       <th>M-Acc<_th><th>H-Acc<_th>
