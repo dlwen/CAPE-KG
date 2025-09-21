@@ -301,7 +301,6 @@ parameters are selected via grid search on it.
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
     </tr>
   </thead>
   <tbody>
