@@ -26,13 +26,15 @@ parameters are selected via grid search on it.
       <th colspan="2">100 edited</th>
       <th colspan="2">All edited</th>
     </tr>
+
+    <tr>
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
+      <th>M-Acc<th>H-Acc
+    </tr>
+
     <tr>
       <th colspan="7" style="text-align:center;">LLaMa 2-7B</th>
-    </tr>
-    <tr>
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
-      <th>M-Acc<th>H-Acc
     </tr>
   </thead>
   <tbody>
@@ -49,7 +51,7 @@ parameters are selected via grid search on it.
       <td>OOM<td>OOM
     </tr>
     <tr>
-      <td>ROME<sup><a href="#cot">CoT<_a><_sup></td>
+      <td>ROME<sub>COT<_sub><_td>
       <td>11.17<td>–
       <td>2.87<td>–
       <td>2.77<td>–
