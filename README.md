@@ -289,6 +289,8 @@ parameters are selected via grid search on it.
       <th rowspan=“2”>KG Construction</th>
       <th rowspan=“2”>Retrieval</th>
       <th rowspan=“2”>Update</th>
+ </tr>
+    <tr>
       <th>1 edited</th>
       <th>100 edited</th>
       <th>All edited</th>
