@@ -251,8 +251,6 @@ parameters are selected via grid search on it.
       <td><strong>97.45<td><strong>88.20
     </tr>
 
-
-
  <tr>
       <th colspan=“5” style="text-align:center;">GPT-3.5-turbo-instruct</th>
     </tr>
@@ -278,6 +276,67 @@ parameters are selected via grid search on it.
     </tr>
   </tbody>
 </table>
+
+
 ### Ablation Studies
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3">KG Construction</th>
+      <th rowspan="3">Retrieval</th>
+      <th rowspan="3">Update</th>
+      <th colspan="6">MQUAKE-CF-3K</th>
+      <th colspan="4">MQUAKE-CF-T</th>
+    </tr>
+    <tr>
+      <th colspan="2">I edited</th>
+      <th colspan="2">100 edited</th>
+      <th colspan="2">All edited</th>
+      <th colspan="2">I edited</th>
+      <th colspan="2">All edited</th>
+    </tr>
+    <tr>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+      <th>M-Acc<_th><th>H-Acc<_th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>–<_td><td>✓<_td><td>✓</td>
+      <td>75.00<_td><td>69.00<_td>
+      <td>74.67<_td><td>69.04<_td>
+      <td>75.67<_td><td>69.00<_td>
+      <td>96.00<_td><td>86.60<_td>
+      <td>95.80<_td><td>86.60<_td>
+    </tr>
+    <tr>
+      <td>✓<_td><td>–<_td><td>✓</td>
+      <td>53.33<_td><td>43.00<_td>
+      <td>51.33<_td><td>46.67<_td>
+      <td>51.93<_td><td>46.00<_td>
+      <td>87.33<_td><td>81.67<_td>
+      <td>87.67<_td><td>82.00<_td>
+    </tr>
+    <tr>
+      <td>✓<_td><td>✓<_td><td>–</td>
+      <td>77.40<_td><td>71.00<_td>
+      <td>74.58<_td><td>68.14<_td>
+      <td>74.29<_td><td>68.10<_td>
+      <td>96.60<_td><td>87.10<_td>
+      <td>94.35<_td><td>85.60<_td>
+    </tr>
+    <tr>
+      <td>✓<_td><td>✓<_td><td>✓</td>
+      <td><strong>79.78<_strong><_td><td><strong>73.65<_strong><_td>
+      <td><strong>79.81<_strong><_td><td><strong>73.75<_strong><_td>
+      <td><strong>79.03<_strong><_td><td><strong>73.00<_strong><_td>
+      <td><strong>97.11<_strong><_td><td><strong>88.00<_strong><_td>
+      <td><strong>96.72<_strong><_td><td><strong>87.40<_strong><_td>
+    </tr>
+  </tbody>
+</table>
 
