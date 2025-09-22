@@ -4,7 +4,7 @@
 ## Overview
 **CAPE-KG**, **Consistency-Aware Parameter-Preserving Editing with Knowledge Graphs**, a novel consistency-aware framework for parameter-preserving knowledge editing on multi-hop question answering. CAPE-KG ensures knowledge graph construction, update, and retrieval are always aligned with the requirements of the multi-hop question answering task, maintaining coherent reasoning over both unedited and edited knowledge.
 
-![Alt text]([https://example.com/image.png](https://github.com/dlwen/CAPE-KG/blob/img/img/method%20graph.png))
+![Alt text](https://github.com/dlwen/CAPE-KG/blob/img/img/method%20graph.png?raw=true)
 Figure 1.  An overview of CAPE-KG, which consists of three major components: the Knowledge Graph Construction module to build a pre-edit knowledge graph, the Knowledge Update module to update the knowledge graph according to edited knowledge, and the Knowledge Retrieval module to generate an answer through retrieval.
 
 
