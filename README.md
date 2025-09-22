@@ -1,15 +1,27 @@
 # CAPE-KG
 **Consistency-Aware Parameter-Preserving Knowledge Editing Framework for Multi-Hop Question Answering**
+
 ## Overview
-CAPE-KG, Consistency-Aware Parameter-Preserving Editing with Knowledge Graphs, a novel consistency-aware framework for PPKE on MHQA. CAPE-KG ensures KG construction, update, and retrieval are always aligned with the requirements of the MHQA task, maintaining coherent reasoning over both unedited and edited knowledge.
+**CAPE-KG**, **Consistency-Aware Parameter-Preserving Editing with Knowledge Graphs**, a novel consistency-aware framework for parameter-preserving knowledge editing on multi-hop question answering. CAPE-KG ensures knowledge graph construction, update, and retrieval are always aligned with the requirements of the multi-hop question answering task, maintaining coherent reasoning over both unedited and edited knowledge.
 
 ![](README/method%20graph.png)
+Figure 1.  An overview of CAPE-KG, which consists of three major components: the Knowledge Graph Construction module to build a pre-edit knowledge graph, the Knowledge Update module to update the knowledge graph according to edited knowledge, and the Knowledge Retrieval module to generate an answer through retrieval.
+
 
 
 ## Contributions
-* The multi-layer KG architecture ensures the consistent knowledge boundary between factual and edited knowledge during PPKE.
+* The multi-layer knowledge graph architecture ensures the consistent knowledge boundary between factual and edited knowledge during parameter-preserving knowledge editing.
 * The case-isolated updating mechanisms with conflict arbitration guarantees edits are applied atomically and align with the case-isolated assumption.
-* The edit-aware retrieval module with progressive strategies and edit-related retrieval routing ensures the retrieval process is always consistent with the intended KE.
+* The edit-aware retrieval module with progressive strategies and edit-related retrieval routing ensures the retrieval process is always consistent with the intended knowledge editing
+.
+
+## Experiments Setup
+We compare CAPE-KG against parameter-updating editors (FT, ROME, MEMIT) and parameter-preserving method including MeLLo, PokcMQA,
+and KeDKG. CAPE-KG is a model-agnostic framework; for fairness, we follow the experimental configuration of KeDKG, including detector models and backbones, LLaMa 2-7B, Vicuna-7B and GPT-3.5-turbo-instruct. 
+
+The progressive retrieval parameters used in current experiments are τ = 0.6 and λ = 1.  The framework is evaluated by Match Accuracy (M-Acc), which measures the correctness of the final predicted answer against the benchmark ground truth, and Hop Accuracy (H-Acc), which measures the accuracy of intermediate hops against annotated ground-truth chains.
+
+
 
 ## Datasets
 Experiments are conducted on benchmark MQuAKE, includes MQuAKE-CF-3K and MQuAKE-T used for evaluation. Few-shot question decomposition demos are drawn from MQuAKE-CF after removing overlaps with the evaluation data, and the progressive retrieval
@@ -275,7 +287,6 @@ parameters are selected via grid search on it.
   </tbody>
 </table>
 
-
 ### Ablation Studies
 
 <table>
@@ -297,7 +308,7 @@ parameters are selected via grid search on it.
     </tr>
     <tr>
       <th>M-Acc<th>H-Acc
-      <th>M-Acc<<th>H-Acc
+      <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
       <th>M-Acc<th>H-Acc
@@ -338,4 +349,12 @@ parameters are selected via grid search on it.
     </tr>
   </tbody>
 </table>
+
+
+### Contrastive Cases
+![](README/Screenshot%202025-09-22%20at%2013.54.18.png)
+Figure 2. Contrast cases of Update and Knowledge Graph Construction. Unedited knowledge is labeled in purple. Edited entities are in yellow, with dotted lines indicating the edited relation. 
+
+![](README/Screenshot%202025-09-22%20at%2013.55.30.png)
+Figure 3. Contrast cases of Intent Consistency in Retrieval.
 
