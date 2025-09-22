@@ -352,7 +352,7 @@ parameters are selected via grid search on it.
 
 
 ### Contrastive Cases
-![Alt text]([README/Screenshot%202025-09-22%20at%2013.54.18.png](https://github.com/dlwen/CAPE-KG/blob/img/img/update_case.png?raw=true))
+![Alt text](https://github.com/dlwen/CAPE-KG/blob/img/img/update_case.png?raw=true)
 Figure 2. Contrast cases of Update and Knowledge Graph Construction. Unedited knowledge is labeled in purple. Edited entities are in yellow, with dotted lines indicating the edited relation. 
 
 ![Alt text]([README/Screenshot%202025-09-22%20at%2013.55.30.png](https://github.com/dlwen/CAPE-KG/blob/img/img/retrieve_case.png?raw=true))
