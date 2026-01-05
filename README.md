@@ -19,7 +19,7 @@ Figure 1.  An overview of CAPE-KG, which consists of three major components: the
 We compare CAPE-KG against parameter-updating editors (FT, ROME, MEMIT) and parameter-preserving method including MeLLo, PokcMQA,
 and KeDKG. CAPE-KG is a model-agnostic framework; for fairness, we follow the experimental configuration of KeDKG, including detector models and backbones, LLaMa 2-7B, Vicuna-7B and GPT-3.5-turbo-instruct. 
 
-The progressive retrieval parameters used in current experiments are τ = 0.6 and λ = 1.  The framework is evaluated by Match Accuracy (M-Acc), which measures the correctness of the final predicted answer against the benchmark ground truth, and Hop Accuracy (H-Acc), which measures the accuracy of intermediate hops against annotated ground-truth chains.
+The progressive retrieval parameters used in current experiments are τ = 0.4 and λ = 1.  The framework is evaluated by Match Accuracy (M-Acc), which measures the correctness of the final predicted answer against the benchmark ground truth, and Hop Accuracy (H-Acc), which measures the accuracy of intermediate hops against annotated ground-truth chains.
 
 
 
@@ -103,6 +103,12 @@ parameters are selected via grid search on it.
       <td>48.30<td>43.90
     </tr>
     <tr>
+      <td>TEMPLE-MQA</td>
+      <td>68.32<td>59.46
+      <td>48.95<td>35.17
+      <td>42.20<td>27.51
+    </tr>
+    <tr>
       <td><strong>CAPE-KG
       <td><strong>78.03<td><strong>70.35
       <td><strong>78.93<td><strong>71.02
@@ -130,6 +136,12 @@ parameters are selected via grid search on it.
       <td>68.60<td>65.13
       <td>62.43<td>58.20
       <td>51.10<td>44.67
+    </tr>
+    <tr>
+      <td>TEMPLE-MQA</td>
+      <td>71.61<td>62.75
+      <td>56.65<td>44.26
+      <td>46.60<td>37.33
     </tr>
     <tr>
       <td><strong>CAPE-KG
@@ -160,6 +172,12 @@ parameters are selected via grid search on it.
       <td>68.00<td>65.33
       <td>59.50<td>56.80
       <td>49.10<td>43.17
+    </tr>
+    <tr>
+      <td>TEMPLE-MQA</td>
+      <td>78.11<td>63.45 
+      <td>67.21<td>55.33
+      <td>53.68<td>40.05
     </tr>
     <tr>
       <td><strong>CAPE-KG
@@ -233,6 +251,11 @@ parameters are selected via grid search on it.
       <td>71.15<td>66.76
     </tr>
     <tr>
+      <td>TEMPLE-MQA</td>
+      <td>77.56<td>64.87
+      <td>75.73<td>62.30
+    </tr>
+    <tr>
       <td><strong>CAPE-KG
       <td><strong>93.39<td><strong>84.52
       <td><strong>92.57<td><strong>83.82
@@ -258,6 +281,11 @@ parameters are selected via grid search on it.
       <td>74.68<td>66.64
     </tr>
     <tr>
+      <td>TEMPLE-MQA</td>
+      <td>81.77<td>69.46
+      <td>78.29<td>68.15
+    </tr>
+    <tr>
       <td><strong>CAPE-KG
       <td><strong>98.08<td><strong>89.14
       <td><strong>97.45<td><strong>88.20
@@ -278,6 +306,11 @@ parameters are selected via grid search on it.
       <td>KeDKG</td>
       <td>78.75<td>76.18
       <td>77.19<td>73.77
+    </tr>
+    <tr>
+      <td>TEMPLE-MQA</td>
+      <td>90.57<td>81.90
+      <td>82.26<td>74.33
     </tr>
     <tr>
       <td><strong>CAPE-KG
