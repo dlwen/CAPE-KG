@@ -385,9 +385,9 @@ parameters are selected via grid search on it.
 
 
 ### Contrastive Cases
-![Alt text](figs/case_update.png)
+![Alt text](figs/case_update.png) <br>
 Figure 2. Contrast cases of Update and Knowledge Graph Construction. Unedited knowledge is labeled in purple. Edited entities are in yellow, with dotted lines indicating the edited relation. 
 
-![Alt text](figs/case_retrieve.png)
+![Alt text](figs/case_retrieve.png) <br>
 Figure 3. Contrast cases of Intent Consistency in Retrieval.
 
