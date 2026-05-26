@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "results": [
+    {
+      "detector": "entity",
+      "n_test": 15502,
+      "n_pos": 3351,
+      "n_neg": 12151,
+      "accuracy": 0.9925816023738873,
+      "precision": 0.9698025551684089,
+      "recall": 0.996717397791704,
+      "f1": 0.9830757910228108,
+      "confusion_matrix": [
+        [
+          12047,
+          104
+        ],
+        [
+          11,
+          3340
+        ]
+      ],
+      "elapsed_seconds": 34.59,
+      "seed": 42,
+      "batch_size": 64,
+      "max_length": 128
+    },
+    {
+      "detector": "relation",
+      "n_test": 13981,
+      "n_pos": 4470,
+      "n_neg": 9511,
+      "accuracy": 0.9501466275659824,
+      "precision": 0.8892098205075304,
+      "recall": 0.9642058165548099,
+      "f1": 0.9251905119673715,
+      "confusion_matrix": [
+        [
+          8974,
+          537
+        ],
+        [
+          160,
+          4310
+        ]
+      ],
+      "elapsed_seconds": 30.63,
+      "seed": 42,
+      "batch_size": 64,
+      "max_length": 128
+    }
+  ]
+}

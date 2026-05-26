@@ -1,0 +1,38 @@
+2026-05-14 12:09:31,661 | INFO | Log file: /Users/deng/Desktop/CAPE-KG/emnlp/CAPEKG_code/entity_extractor_evaluation/log/eval_20260514_120931.log
+2026-05-14 12:09:31,662 | INFO | Args: {'detector': 'both', 'seed': 42, 'batch_size': 64, 'max_length': 128, 'repo_root': '/Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026', 'device': None}
+2026-05-14 12:09:31,707 | INFO | Device: mps
+2026-05-14 12:09:31,707 | INFO | Repo root: /Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026
+2026-05-14 12:09:31,707 | INFO | ======================================================================
+2026-05-14 12:09:31,707 | INFO | Evaluating entity detector
+2026-05-14 12:09:31,707 | INFO | ======================================================================
+2026-05-14 12:09:31,707 | INFO | data : /Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026/train/datasets_entity_judge.json
+2026-05-14 12:09:31,707 | INFO | model: /Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026/train/results_entity_judge/best_model_entity_judge
+2026-05-14 12:09:31,740 | INFO | Loaded 77508 samples
+2026-05-14 12:09:31,773 | INFO | Split (seed=42): 62006 train / 15502 test
+2026-05-14 12:09:31,773 | INFO | Test set label dist: 3351 pos / 12151 neg
+2026-05-14 12:09:31,773 | INFO | Loading model & tokenizer...
+2026-05-14 12:10:07,342 | INFO | Inference: 34.59s total (448.2 samples/s)
+2026-05-14 12:10:07,365 | INFO | Accuracy : 0.9926
+2026-05-14 12:10:07,366 | INFO | Precision: 0.9698
+2026-05-14 12:10:07,366 | INFO | Recall   : 0.9967
+2026-05-14 12:10:07,366 | INFO | F1       : 0.9831
+2026-05-14 12:10:07,366 | INFO | Confusion [[TN, FP], [FN, TP]]: [[12047, 104], [11, 3340]]
+2026-05-14 12:10:07,388 | INFO | ======================================================================
+2026-05-14 12:10:07,388 | INFO | Evaluating relation detector
+2026-05-14 12:10:07,388 | INFO | ======================================================================
+2026-05-14 12:10:07,388 | INFO | data : /Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026/train/datasets_relation_judge.json
+2026-05-14 12:10:07,388 | INFO | model: /Users/deng/Desktop/CAPE-KG/emnlp/EMNLP2026/train/results/results/best_model
+2026-05-14 12:10:07,430 | INFO | Loaded 69905 samples
+2026-05-14 12:10:07,465 | INFO | Split (seed=42): 55924 train / 13981 test
+2026-05-14 12:10:07,466 | INFO | Test set label dist: 4470 pos / 9511 neg
+2026-05-14 12:10:07,466 | INFO | Loading model & tokenizer...
+2026-05-14 12:10:38,384 | INFO | Inference: 30.63s total (456.4 samples/s)
+2026-05-14 12:10:38,390 | INFO | Accuracy : 0.9501
+2026-05-14 12:10:38,390 | INFO | Precision: 0.8892
+2026-05-14 12:10:38,390 | INFO | Recall   : 0.9642
+2026-05-14 12:10:38,390 | INFO | F1       : 0.9252
+2026-05-14 12:10:38,390 | INFO | Confusion [[TN, FP], [FN, TP]]: [[8974, 537], [160, 4310]]
+2026-05-14 12:10:38,404 | INFO | ======================================================================
+2026-05-14 12:10:38,404 | INFO | Wrote: /Users/deng/Desktop/CAPE-KG/emnlp/CAPEKG_code/entity_extractor_evaluation/result/results_20260514_120931.json
+2026-05-14 12:10:38,404 | INFO | Wrote: /Users/deng/Desktop/CAPE-KG/emnlp/CAPEKG_code/entity_extractor_evaluation/result/results_20260514_120931.md
+2026-05-14 12:10:38,404 | INFO | ======================================================================
