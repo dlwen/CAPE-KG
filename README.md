@@ -383,6 +383,34 @@ parameters are selected via grid search on it.
   </tbody>
 </table>
 
+### Cross-Case Locality
+
+To assess robustness beyond the case-isolated setting, we measure cross-case locality preservation: the proportion of cases sharing entities but querying different relations that remain correctly answered after edits are applied to other cases. We compare **With Overlay** (case-level routing to isolate edits) against **No Overlay** (all edits merged into a shared graph). Experiments use GPT-3.5-turbo-instruct as the backbone.
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>MQuAKE-T</th>
+      <th>MQuAKE-CF-3K</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>With Overlay</td>
+      <td>97.1</td>
+      <td>86.4</td>
+    </tr>
+    <tr>
+      <td>No Overlay</td>
+      <td>88.6</td>
+      <td>77.2</td>
+    </tr>
+  </tbody>
+</table>
+
+Locality preservation accuracy (%) under cross-case editing. Higher is better. The overlay mechanism improves locality by 8.5 and 9.2 absolute points on MQuAKE-T and MQuAKE-CF-3K respectively, confirming that case-level routing effectively mitigates cross-case interference.
+
 
 ### Contrastive Cases
 ![Alt text](figs/case_update.png) <br>
