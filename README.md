@@ -409,6 +409,66 @@ parameters are selected via grid search on it.
 </table>
 
 
+
+### Hyperparameter Analysis for λ
+
+<table>
+  <thead>
+    <tr>
+      <th>λ</th>
+      <th>0.5</th>
+      <th><b>1.0</b></th>
+      <th>1.5</th>
+      <th>2.0</th>
+      <th>2.5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>M-Acc (%)</b></td>
+      <td>77.83</td>
+      <td><b>79.78</b></td>
+      <td>79.46</td>
+      <td>79.28</td>
+      <td>78.52</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Hyperparameter Analysis for τ
+
+<table>
+  <thead>
+    <tr>
+      <th>τ</th>
+      <th>0.1</th>
+      <th>0.2</th>
+      <th>0.3</th>
+      <th><b>0.4</b></th>
+      <th>0.5</th>
+      <th>0.6</th>
+      <th>0.7</th>
+      <th>0.8</th>
+      <th>0.9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>M-Acc (%)</b></td>
+      <td>77.58</td>
+      <td>78.36</td>
+      <td>79.52</td>
+      <td><b>79.78</b></td>
+      <td>79.05</td>
+      <td>79.30</td>
+      <td>78.93</td>
+      <td>78.38</td>
+      <td>77.75</td>
+    </tr>
+  </tbody>
+</table>
+
 ### Contrastive Cases
 ![Alt text](figs/case_update.png) <br>
 Figure 2. Contrast cases of Update and Knowledge Graph Construction. Unedited knowledge is labeled in purple. Edited entities are in yellow, with dotted lines indicating the edited relation. 
